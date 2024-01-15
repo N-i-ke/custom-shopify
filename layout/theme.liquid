@@ -3,10 +3,14 @@
   <head>
     ...
     {{ content_for_header }}
+    
+    {{ "mycss.css" | asset_url | stylesheet_tag }}
+    {{ "my.js.js" | asset_url | script_tag }}
     ...
   </head>
 
   <body>
+    {% sections 'my-group' %}
     ...
     {{ content_for_layout }}
     ...
