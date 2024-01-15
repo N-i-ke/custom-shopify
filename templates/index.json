@@ -1,0 +1,14 @@
+{
+    "sections": {
+        "headers":{
+            "type": "header"
+        },
+        "footer":{
+            "type": "footer"
+        }
+    },
+    "order": [
+        "header",
+        "footer"
+    ]
+}

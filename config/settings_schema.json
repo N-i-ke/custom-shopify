@@ -1,0 +1,12 @@
+[
+    {
+        "name": "settings1",
+        "settings": [
+            {
+                "type": "text",
+                "id": "settings1",
+                "label": "text"
+            }
+        ]
+    }
+]
