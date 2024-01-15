@@ -1,0 +1,21 @@
+<p>Main</p>
+
+<a href="{{ section.settings.my_collection.url }}">{{ section.settings.my_collection.title }}</a>
+
+{% schema %}
+    {
+        "name": "main",
+        "settings": [
+            {
+                "type": "collection",
+                "id": "my_collection",
+                "label":"My Collection"
+            }
+        ],
+        "presets": [
+            {
+                "name": "main"
+            }
+        ]
+    }
+{% endschema %}
